@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15112" started-at="2021-07-25T16:13:57 IST" finished-at="2021-07-25T16:14:12 IST">
+  <suite name="Default suite" duration-ms="12101" started-at="2021-07-25T20:22:59 IST" finished-at="2021-07-25T20:23:11 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15112" started-at="2021-07-25T16:13:57 IST" finished-at="2021-07-25T16:14:12 IST">
+    <test name="Default test" duration-ms="12101" started-at="2021-07-25T20:22:59 IST" finished-at="2021-07-25T20:23:11 IST">
       <class name="ExtentReportWithScreenShot.Screenshot.ExtentReportDemo">
-        <test-method status="PASS" signature="init()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@15d0c81b]" name="init" is-config="true" duration-ms="159" started-at="2021-07-25T16:13:57 IST" finished-at="2021-07-25T16:13:57 IST">
+        <test-method status="PASS" signature="init()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@15d0c81b]" name="init" is-config="true" duration-ms="149" started-at="2021-07-25T20:22:59 IST" finished-at="2021-07-25T20:22:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="mytest()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@15d0c81b]" name="mytest" duration-ms="11191" started-at="2021-07-25T16:13:57 IST" finished-at="2021-07-25T16:14:08 IST">
+        <test-method status="PASS" signature="mytest()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@15d0c81b]" name="mytest" duration-ms="8158" started-at="2021-07-25T20:22:59 IST" finished-at="2021-07-25T20:23:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest -->
-        <test-method status="PASS" signature="mytest1()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@15d0c81b]" name="mytest1" duration-ms="3724" started-at="2021-07-25T16:14:08 IST" finished-at="2021-07-25T16:14:12 IST">
+        <test-method status="PASS" signature="mytest1()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@15d0c81b]" name="mytest1" duration-ms="3759" started-at="2021-07-25T20:23:07 IST" finished-at="2021-07-25T20:23:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest1 -->
