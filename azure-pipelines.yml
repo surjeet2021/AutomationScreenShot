@@ -20,8 +20,9 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: PublishPipelineArtifact@1
+- task: CopyPublishBuildArtifacts@1
   inputs:
-    targetPath: '**/indext.html'
-    artifact: 'HTMLReport'
-    publishLocation: 'pipeline'
+    CopyRoot: '$(Agent.BuildDirectory)'
+    Contents: '**/*.html'
+    ArtifactName: 'AutomationScreenShot'
+    ArtifactType: 'Container'
