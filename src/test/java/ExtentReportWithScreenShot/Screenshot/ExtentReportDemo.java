@@ -81,13 +81,13 @@ public class ExtentReportDemo {
 		driver.manage().window().maximize();		
 		test.info("Browser is maximize");
 
-		driver.get("https://en-gb.facebook.com/");
+		driver.get("https://www.google.com/");
 		test.info("URL is opened");	
 
 		try {
 			
-			Assert.assertEquals(driver.getTitle(), "Facebook – log in or sign up");
-			test.pass("We are on facebook");
+			Assert.assertEquals(driver.getTitle(), "Google");
+			test.pass("We are on google.com");
 			test.addScreenCaptureFromPath(Screenshot.takescreenshot(driver));
 		}
 		catch(AssertionError e) {
