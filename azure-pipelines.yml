@@ -23,6 +23,6 @@ steps:
 - task: CopyPublishBuildArtifacts@1
   inputs:
     CopyRoot: '$(Agent.BuildDirectory)'
-    Contents: '**/*.html'
+    Contents: '**/indext.html'
     ArtifactName: 'AutomationScreenShot'
     ArtifactType: 'Container'
