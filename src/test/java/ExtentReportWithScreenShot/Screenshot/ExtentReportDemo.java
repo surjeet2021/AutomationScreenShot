@@ -1,5 +1,7 @@
 package ExtentReportWithScreenShot.Screenshot;
 
+import java.util.concurrent.TimeUnit;
+
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,6 +11,8 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ExtentReportDemo {
 
@@ -36,13 +40,11 @@ public class ExtentReportDemo {
 
 	public void mytest() {
 
-		test =extent.createTest("Mytest1");		
-		System.setProperty("webdriver.chrome.driver","C:\\Driver\\chromedriver.exe");
-		driver= new ChromeDriver();
-
+		test =extent.createTest("Test1:-Checking QA title");
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		test.info("Browser is demoqa opened");
-
-
 		driver.manage().window().maximize();		
 		test.info("Browser is maximize");
 
@@ -71,13 +73,11 @@ public class ExtentReportDemo {
 
 	public void mytest1() {
 
-		test =extent.createTest("Mytest2");		
-		System.setProperty("webdriver.chrome.driver","C:\\Driver\\chromedriver.exe");
-		driver= new ChromeDriver();
-
+		test =extent.createTest("Test2:-Checking facebook title");		
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		test.info("Browser is Fcebook opened");
-
-
 		driver.manage().window().maximize();		
 		test.info("Browser is maximize");
 
