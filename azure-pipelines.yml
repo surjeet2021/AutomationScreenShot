@@ -22,6 +22,6 @@ steps:
     goals: 'package'
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
+    targetPath: '_surjeet2021_AutomationScreenShot\indext.htm'
     artifact: 'HTMLReport'
     publishLocation: 'pipeline'
