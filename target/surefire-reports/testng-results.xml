@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="171831" started-at="2021-07-25T14:15:35 IST" finished-at="2021-07-25T14:18:27 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="171831" started-at="2021-07-25T14:15:35 IST" finished-at="2021-07-25T14:18:27 IST">
+      <class name="ExtentReportWithScreenShot.Screenshot.ExtentReportDemo">
+        <test-method status="PASS" signature="init()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@31610302]" name="init" is-config="true" duration-ms="147" started-at="2021-07-25T14:15:35 IST" finished-at="2021-07-25T14:15:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="mytest()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@31610302]" name="mytest" duration-ms="138680" started-at="2021-07-25T14:15:36 IST" finished-at="2021-07-25T14:17:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest -->
+        <test-method status="PASS" signature="mytest1()[pri:0, instance:ExtentReportWithScreenShot.Screenshot.ExtentReportDemo@31610302]" name="mytest1" duration-ms="32984" started-at="2021-07-25T14:17:54 IST" finished-at="2021-07-25T14:18:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest1 -->
+      </class> <!-- ExtentReportWithScreenShot.Screenshot.ExtentReportDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
